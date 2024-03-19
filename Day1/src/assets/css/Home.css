@@ -1,0 +1,75 @@
+.container{
+  width: 100%;
+  height: 100vh;
+}
+.video-container{
+
+
+  
+  
+}
+.a1{
+  margin-left: 250px;
+  font-size: 45px;
+  
+  color: rgb(255, 255, 255);
+  margin-top: 160px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.a2{
+  margin-top: 3%;
+  margin-left: 255px;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home-button{
+  border-radius: 2rem;
+  width: 180px;
+  color: white;
+  background-color: brown;
+  border-color: brown;
+  margin-left:800px ;
+}
+.home-button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.content-container {
+  width: 800px;
+  height: 100px;
+  background-color: brown;
+  border: 1px solid #ccc;
+  border-radius: 6rem;
+  padding: 20px;
+  color: white;
+  margin-left: 240px;
+  margin-top: 5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display:flex;
+}
+.content-container h5{
+margin-left: 40px;
+margin-top: 0;
+font-size: 30px;
+}
+.content-container h3{
+margin-left: 0;
+margin-top: 0;
+font-size: medium;
+}
+
+.x{
+  margin-left: 60px;
+
+}
+.y{
+  margin-left: 80px;
+}
+.z{
+  margin-left: 80px;
+}
