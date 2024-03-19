@@ -1,0 +1,71 @@
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #091c5a;
+    color: #fff;
+    padding: 50px 20px; /* Adjust padding to increase height */
+    height: 50vh; /* Set height to 50% of the viewport height */
+}
+
+.left-section,
+.middle-section,
+.right-section {
+    flex: 1;
+}
+
+.left-section {
+    text-align: left; /* Align text to the left */
+}
+
+.middle-section {
+    text-align: center; /* Align text to the center */
+}
+
+.right-section {
+    text-align: right; /* Align text to the right */
+}
+.logo {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add some space between the logo and the paragraph */
+  }
+  .quick-links {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li {
+    margin-bottom: 5px;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: #ffffff; /* Change the color according to your design */
+    font-size: 14px; /* Adjust the font size as needed */
+}
+
+.quick-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+.services {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    margin-bottom: 5px;
+    color: #ffffff; /* Adjust the color according to your design */
+    font-size: 14px; /* Adjust the font size as needed */
+}
+.right-section {
+    padding-left: 20px; /* Adjust the left padding to move the content slightly to the left */
+}
+
+.right-section h4 {
+    margin-bottom: 10px; /* Add some margin below the "Contact Us" heading */
+}
+
+.right-section p {
+    margin-bottom: 5px; /* Add margin below each paragraph */
+}
