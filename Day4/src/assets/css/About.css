@@ -1,0 +1,231 @@
+.imagess{
+    /* Use flexbox to align items */
+   justify-content: center; /* Center the image horizontally */
+   margin-left: 10    ;
+   margin-top: 90px; /* Add some space below each image */
+ }
+ .image2{
+   margin-left: 90px;
+   margin-top: 70px;
+ }
+ .imagetext{
+   position: relative; /* Change position to relative */
+   margin-top: -100px;
+   margin-right: 50px; /* Adjust the margin top to move the text closer */
+   padding: 20px;
+   
+   width: 300px; /* Adjust the width as needed */
+ }
+/* About.css */
+.portea{
+  margin-left: -10px;
+  margin-top: 10px;
+  text-align:justify;
+  color: black;
+}
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .image-wrapper0 {
+   margin-bottom: 10px;
+   margin-left: 0px;
+ }
+ 
+ .text-content {
+   background-color: rgba(255, 255, 255, 0.7); /* Transparent white background */
+   padding: 20px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+   text-align: center;
+ }
+ 
+ .grid-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+   gap: 20px; /* Gap between grid items */
+ }
+ 
+ .grid-item {
+   background-color: rgba(255, 255, 255, 0.7); /* Transparent white background */
+   padding: 20px;
+   border-radius: 8px;
+   text-align: center;
+ }
+ /* About.css */
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .image-wrapper {
+   margin-bottom: 20px;
+ }
+ 
+ .text-content {
+   background-color: rgba(255, 255, 255, 0.7); /* Transparent white background */
+   padding: 20px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+   text-align: center;
+   animation: slideIn 1.5s forwards; /* Apply slideIn animation */
+   opacity: 0; /* Initially hide the text */
+ }
+ 
+ @keyframes slideIn {
+   0% {
+     transform: translateY(100%); /* Start from bottom */
+     opacity: 0; /* Hide initially */
+   }
+   100% {
+     transform: translateY(0); /* Move to original position */
+     opacity: 1; /* Show completely */
+   }
+ }
+ 
+ .grid-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+   gap: 20px; /* Gap between grid items */
+ }
+ 
+ .grid-item {
+   background-color: rgba(255, 255, 255, 0.7); /* Transparent white background */
+   padding: 20px;
+   border-radius: 8px;
+   text-align: center;
+ }
+ 
+ /* About.css */
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .image-and-text {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between; /* Images and text are spaced evenly */
+   margin-bottom: 20px;
+ }
+ 
+ .image-wrapper {
+   flex: 1; /* Image takes up the available space */
+ }
+ 
+ .text-content {
+   flex: 1; /* Text takes up the available space */
+   background-color: rgba(255, 255, 255, 0.7); /* Transparent white background */
+   padding: 20px;
+   border-radius: 8px;
+   margin-left: 20px; /* Add margin between image and text */
+   animation: slideIn 1.5s forwards; /* Apply slideIn animation */
+   opacity: 0; /* Initially hide the text */
+ }
+ 
+ @keyframes slideIn {
+   0% {
+     transform: translateY(100%); /* Start from bottom */
+     opacity: 0; /* Hide initially */
+   }
+   100% {
+     transform: translateY(0); /* Move to original position */
+     opacity: 1; /* Show completely */
+   }
+ }
+ 
+ .image-wrapper img {
+   max-width: 100%;
+   height: auto;
+ }
+ 
+ .grid-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+   gap: 20px; /* Gap between grid items */
+ }
+ 
+ .grid-item {
+   background-color: rgba(255, 255, 255, 0.7); /* Transparent white background */
+   padding: 20px;
+   border-radius: 8px;
+   text-align: center;
+ }
+
+ .additional-images {
+    display: flex;
+    justify-content: center;
+    opacity: 0; /* Initially hidden */
+  }
+  
+  .additional-image {
+    margin: 10px; /* Adjust margin as needed */
+    animation: slideIn 1s forwards; /* Define the animation */
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(50px); /* Slide from bottom */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Slide to top */
+    }
+  }
+  
+  .text-on-background {
+    position: absolute;
+   
+    font-size: 20px;
+    margin-top: -750px;
+    margin-left:750px;
+    transform: translate(-50%, -50%);
+    color: rgb(10, 7, 7);
+    text-align: center;
+    opacity: 1;
+  }
+  .about{
+    margin-top: 760px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .background-image-container {
+    height: 80vh; /* Set height to 50% of the viewport height */
+   
+    overflow: hidden;
+    opacity: 0.9; /* Hide overflow content */
+  }
+  
+  
+  .background-image {
+    width: 100%; /* Ensure the image covers the entire container */
+  }
+
+ .image22{
+    margin-left:-900px;
+    animation: slideIn 1s forwards; 
+ }
+ .visi{
+    margin-top: -570px;
+    margin-left: 570px;
+    animation: slideIn 1s forwards; 
+    
+ }.container {
+    margin-bottom: 50px; /* Adjust as needed */
+  }
+  .first{
+    font-size: 30px;
+    color: black;
+    margin-top: 30px;
+  }
+  
+  .about{
+    color: black;
+  }

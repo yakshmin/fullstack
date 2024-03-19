@@ -1,0 +1,214 @@
+.service-image{
+
+ 
+    position:absolute;
+   top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    width: 100%;
+    height: 90%;
+    background-image: url('C:\Users\LENOVO\ViteProject\src\assets\images\bg15.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.9); 
+    
+  }
+  .service-image::after {
+    content: "";
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%; /* Adjust the height of the gradient overlay */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(255, 255, 255));  }
+
+    
+    .card-page {
+    text-align: center;
+    padding: 20px;
+   
+    
+  }
+  
+  .card-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .scroll-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+  }
+  
+  .card-container {
+    display: flex; /* Set display to flex */
+    margin-top: 0;
+    margin-right: 20%;
+    
+    flex-wrap: nowrap;
+  }
+  
+  .howwehelp{
+      color: #000;
+      font-size: 2rem;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      margin-top: 45%;
+      margin-left: 50px;;
+    } 
+    
+    
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  .scroll-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .scroll-buttons button {
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .scroll-buttons button:hover {
+    color: #000; /* Change color on hover */
+  }
+.howwe{
+    margin-left: 090px;
+    font-size: 30px;
+}
+ 
+/* card-page.css */
+
+.card-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .card-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .scroll-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+  }
+
+  
+ 
+ 
+  
+  .card {
+    flex: 0 0 auto; /* Set flex properties */
+    
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer; /* Add pointer cursor for interactivity */
+  }
+  
+  .card:hover {
+    background-color: #b13030;/* Change background color on hover */
+  }
+  
+  
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  .card-details {
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  
+  .card {
+    width: 170px;
+    height: 170px;
+    margin: 10px;
+    border-radius: 1.5rem;
+    background-color: rgba(169, 169, 169, 0.3);
+  
+    overflow: hidden;
+  }
+  .card h3{
+    color:#000;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .card-content {
+    text-align: center;
+  }
+  
+  .selected {
+    background-color: #b13030; 
+    
+    /* Change background color when selected */
+  }
+  .selected-card-details {
+    margin-top: 20px;
+  
+}
+
+.selected-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black; /* Set the color to black */
+    
+}
+
+.selected-card-description {
+      margin-right: 0;
+    font-size: 16px;
+    color: black; /* Set the color to black */
+  }
+  
