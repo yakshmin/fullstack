@@ -1,0 +1,90 @@
+.main-container {
+  display: flex;
+  justify-content: space-between;
+margin-top: 100px;
+  padding: 10px;
+  background-color: #b13f41;
+  height: 100%;
+}
+
+.left-container {
+  width: 50%; 
+  height:570px;
+  margin-left: 180px;
+  
+  background-color: white;
+  border-radius: 1rem;
+}
+.submit-button {
+  width: 45%;
+  padding: 10px;
+  background-color: #b13f41;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 130px;
+}
+.left-container h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.form-group1 input{
+  border-radius: 1px;
+  border:none;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select {
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px 0; /* Adjust vertical padding as needed */
+  border: none; /* Remove default border */
+  border-bottom: 2px solid #6b6b6b; /* Add bottom border */
+  background-color: transparent; /* Remove background */
+  outline: none; /* Remove default focus outline */
+  transition: border-bottom-color 0.3s ease; /* Add transition for smoother effect */
+  border-radius: 1px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-bottom-color: #007bff; /* Change bottom border color on focus */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add blurred border effect on focus */
+}
+
+
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-right: -80px;
+}
+
+.contact-item i {
+  margin-right: 10px;
+}
+
+.contact-item p {
+  margin: 0;
+}
